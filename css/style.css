@@ -1,0 +1,87 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-size: 0.32rem;
+  font-family: "黑体"; }
+
+.box {
+  display: flex;
+  flex-direction: column; }
+  .box header {
+    width: 100%;
+    height: 1rem;
+    background: #dedede;
+    display: flex;
+    align-items: center; }
+    .box header em {
+      flex: 1;
+      text-align: center;
+      font-weight: normal;
+      color: lightskyblue;
+      font-weight: bold;
+      font-size: 0.5rem; }
+    .box header h1 {
+      flex: 5;
+      font-size: 0.45rem;
+      text-align: center;
+      font-weight: normal; }
+  .box section {
+    width: 100%;
+    flex: 1;
+    position: relative;
+    overflow-y: scroll;
+    background: url("../img.jpg");
+    background-size: 100% 100%; }
+    .box section nav {
+      width: 100%;
+      padding: 0.5rem 0rem;
+      color: #fff;
+      font-size: 0.6rem;
+      text-align: center; }
+    .box section .list {
+      color: #fff;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      padding: 0.5rem 0rem; }
+      .box section .list .sing {
+        flex-basis: 20%;
+        height: 2rem;
+        border: 2px solid #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        .box section .list .sing em {
+          font-size: 1rem; }
+        .box section .list .sing b {
+          font-size: 0.35rem;
+          font-weight: normal;
+          padding: 0.2rem 0rem; }
+    .box section .con {
+      width: 95%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      color: #fff; }
+      .box section .con .one {
+        padding: 0.4rem 0rem;
+        width: 87%; }
+        .box section .con .one small {
+          font-size: 0.267rem; }
+      .box section .con .three {
+        width: 2rem;
+        height: 2rem; }
+        .box section .con .three img {
+          width: 100%;
+          height: 100%;
+          border: 2px solid #fff; }
+
+/*# sourceMappingURL=style.css.map */
